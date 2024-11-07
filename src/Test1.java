@@ -3,6 +3,9 @@ public class Test1 {
 		String hungry = "yes";
 		if(hungry == "yes" || hungry == "y" || hungry == "Y")
 			System.out.println("eat something....");
+		else if (hungry == "no") {
+			System.out.println("Do work...");
+		}
 		else {
 			System.out.println("Do work...");
 		}
